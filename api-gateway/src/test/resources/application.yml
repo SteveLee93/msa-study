@@ -1,0 +1,10 @@
+spring:
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+    config:
+      enabled: false
